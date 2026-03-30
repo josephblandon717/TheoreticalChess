@@ -26,4 +26,4 @@ Worrall (Wormald) Attack: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Qe2
 Anderssen Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d3
 Martinez Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 d3
 Tarrasch Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Nc3
-Mackenzie Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d4
+Mackenzie Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d4 
