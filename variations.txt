@@ -1,0 +1,29 @@
+Zaitsev Variation (Closed Spanish with Bb7 and Re8): e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Bb7
+Kholmov Variation (Closed Spanish with Be6): e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Be6
+Karpov Variation (Closed Spanish with Nd7): e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nd7
+Smyslov Defense (Closed Spanish with h6): e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 h6
+Keres Defense (Closed Spanish with a5): e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7  Re1 b5  Bb3 d6  c3 O-O  h3 a5
+Yates Variation (Closed Spanish with d4): e4 e5 Nf3 Nc6  Bb5 a6  Ba4 Nf6  O-O Be7  Re1 b5  Bb3 d6  c3 O-O  d4
+Pilnik Variation (Closed Spanish with d3): e4 e5 Nf3 Nc6  Bb5 a6  Ba4 Nf6  O-O Be7  Re1 b5  Bb3 d6  c3 O-O  d3
+Averbakh Variation (6…d6): e4 e5 Nf3 Nc6 Bb5 a6  Ba4 Nf6  O-O Be7  Re1 d6
+Arkhangelsk Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 Bb7 
+Neo-Archangel Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 Bc5
+Marshall Attack: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 
+Anti-Marshall: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O a4
+Exchange Variation: e4 e5 Nf3 Nc6  Bb5 a6 Bxc6
+Delayed Exchange Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Bxc6
+Open Spanish: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4
+Modern (Deferred) Steinitz Defense: e4 e5 Nf3 Nc6  Bb5 a6  Ba4 d6
+Schliemann Defense: e4 e5 Nf3 Nc6 Bb5 f5
+Berlin Defense: e4 e5 Nf3 Nc6 Bb5 Nf6
+The Anti-Berlin(s): e4 e5 Nf3 Nc6 Bb5 Nf6 d3
+Cozio Defense: e4 e5 Nf3 Nc6 Bb5 Nge7
+Classical Variation: e4 e5 Nf3 Nc6  Bb5 Bc5
+Bird Variation: e4 e5 Nf3 Nc6 Bb5 Nd4
+(Old) Steinitz Defense: e4 e5 Nf3 Nc6 Bb5 d6
+Fianchetto Defense: e4 e5 Nf3 Nc6 Bb5 g6
+Worrall (Wormald) Attack: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Qe2
+Anderssen Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d3
+Martinez Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 d3
+Tarrasch Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Nc3
+Mackenzie Variation: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d4
