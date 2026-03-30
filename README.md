@@ -1,3 +1,5 @@
+INSTALLATION INSTRUCTIONS: Downlaod the latest release of the app via the releases tab. 
+
 When entering variations into the program, enter the moves without the move number:
 
 	WRONG:
