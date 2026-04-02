@@ -10,7 +10,7 @@ import java.awt.datatransfer.Clipboard;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List; 
+import java.util.List;
 import java.util.Stack;
 
 import java.awt.event.ActionEvent;
@@ -26,11 +26,9 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-
+import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
-
 
 
 // The main menu for Theoretical Chess
@@ -45,12 +43,6 @@ public class ChessTree extends JFrame implements ActionListener{
 	// Saves all possible variations.
 	static HashMap<String, String> variations = new HashMap<String, String>();
 	
-	// Stores the root of the chess tree. 
-	static ChessNode root = new ChessNode("Welcome to Theoretical Chess, choose  a move!", new HashMap<String, ChessNode>());
-	
-	// Stores the current node of the chess tree.
-	static ChessNode currentNode = root;
-	
 	// Stores the button panel of all the options.
 	static JPanel buttonPanel = new JPanel();
 	
@@ -60,12 +52,21 @@ public class ChessTree extends JFrame implements ActionListener{
 	// Stores a JLabel that shows the user the current move, path, and variation if there is one.  
 	static JLabel currentMoveLabel = new JLabel();
 	
-	//
+	// Stores the text file of the different variations
 	static File varTxt = null;
 	
+	static String decodedPath;
+	// Stores the root of the chess tree. 
+	static ChessNode root = new ChessNode("Welcome to Theoretical Chess, choose  a move!", new HashMap<String, ChessNode>());
+		
+	// Stores the current node of the chess tree.
+	static ChessNode currentNode = root;
+	
 	// Reads in the chess tree from a file
-	public static void readInChessTree() throws IOException {
-		Path path = Paths.get("variations.txt");
+	public static void readInChessTree() throws IOException, URISyntaxException{
+		Path directory = Path.of(ChessTree.class.getProtectionDomain().getCodeSource().getLocation().toURI()).getParent();
+		Path path = directory.resolve("variations.txt");
+		decodedPath = path.toString();
 		if (!Files.exists(path))
 			Files.createFile(path);
 		varTxt = new File(path.toString());
@@ -215,7 +216,7 @@ public class ChessTree extends JFrame implements ActionListener{
 		}
 	
 	
-	ChessTree() throws IOException{
+	ChessTree() throws IOException, URISyntaxException{
 		try {
 			// Changes image of the program
 			BufferedImage programImage = ImageIO.read(getClass().getResourceAsStream("/chessIcons/zanePrime.png"));
@@ -240,7 +241,7 @@ public class ChessTree extends JFrame implements ActionListener{
 			this.setTitle("TheoreticalChess");
 			this.setSize(800, 700);
 			this.setVisible(true);
-			this.setResizable(false);
+			this.setResizable(true);
 			this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 			// Creates the back button and its function
@@ -287,7 +288,7 @@ public class ChessTree extends JFrame implements ActionListener{
 									break;
 									
 							}		
-						} catch (IOException e1) {}
+						} catch (IOException | URISyntaxException e1) { e1.printStackTrace(); }
 					}
 					else
 						break;
@@ -320,7 +321,7 @@ public class ChessTree extends JFrame implements ActionListener{
 								input = null;
 							}
 								
-						} catch (IOException e1) {}
+						} catch (IOException | URISyntaxException e1) { e1.printStackTrace(); }
 					}
 					else
 						break;
@@ -346,7 +347,7 @@ public class ChessTree extends JFrame implements ActionListener{
 			
 			}
 		catch (IOException e) {
-			System.out.println("Cannot find file.");
+			e.printStackTrace();
 		}
 	}
 
